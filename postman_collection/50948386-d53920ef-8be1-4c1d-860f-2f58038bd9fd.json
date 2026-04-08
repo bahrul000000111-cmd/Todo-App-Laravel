@@ -186,7 +186,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "{{token}}",
+									"value": "3|paRL3RKzdqc1q3T38n7sF9HLMRyGEkoSAApe2AfB3c8939a5",
 									"type": "string"
 								}
 							]
@@ -209,11 +209,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/todos",
+							"raw": "{{base_url}}/api/todos",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
+								"api",
 								"todos"
 							]
 						}
